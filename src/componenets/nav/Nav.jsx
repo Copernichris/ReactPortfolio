@@ -14,7 +14,7 @@ export default function Nav({ menuOpen, setMenuOpen }) {
                     <a href="#contact">Contact</a>
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#resume">Resume</a>
+                <a href="./assets/resume2021.pdf" download="Thomas_Christohper_Resume">Download Resume</a>
                 </li>
             </ul>
         </div>

@@ -8,6 +8,30 @@
     .left{
         flex: 1;
         overflow: hidden;
+
+        .items{
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;      
+            
+            .border{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;   
+                height: 15rem;
+                width: 15rem;
+                background-color: $mainAccent;
+                border-radius: 50%;
+
+                .icon{
+                font-size: 10rem;        
+                color: $mainColor;        
+                }
+            }
+        }
     }
     .right{
         flex: 1;
@@ -17,7 +41,7 @@
         justify-content: center;
 
         h2{
-            font-size: 30px;
+            font-size: 3rem;
         }
 
         form{
@@ -26,29 +50,45 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: space-around;
-
+            justify-content: space-around; 
+            
             input{
-                width: 300px;
-                height: 30px;
-                font-size: 20px;
+                color: $textColor;
+                background-color: $mainColor;
+                width: 80%;
+                height: 3rem;
+                font-size: 1.5rem;  
+                border: .2rem; 
+                border-color: $mainAccent;   
+                border-style: solid;          
             }
 
             textarea{
-                width: 300px;
-                height: 200px;
-                font-size: 14px;
+                color: $textColor;
+                background-color: $mainColor;
+                width: 80%;
+                height: 18rem;
+                font-size: 1.5rem;
+                border: .2rem; 
+                border-color: $mainAccent;   
+                border-style: solid; 
             }
 
             button{
-                width: 150px;
-                height: 30px;
-                color: $mainColor;
-                background-color: $textColor;
+                overflow: hidden;
+                width: 40%;
+                height: 3.5rem;
+                color: $textColor;
+                background-color: $mainColor;
                 border: none;
-                border-radius: 10px;
-                font-weight: 500;
+                border-radius: .5rem;
+                font-weight: 600;
+                font-size: 1.5rem;
+                border: .2rem; 
+                border-color: $mainAccent;   
+                border-style: solid; 
             }
+            
             span{
                 color: $textColor;
             }

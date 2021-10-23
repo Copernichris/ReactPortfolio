@@ -10,9 +10,9 @@ export default function Intro() {
             </div>
             <div className="right">
                 <div className="wrapper">
-                    <p>Yo my name</p>
-                    <h1>Chris</h1>
-                    <p>I am a web developer</p>
+                    <p>Hello! My name is</p>
+                    <h1>Chris Thomas</h1>
+                    <p>I am a web developer looking for a full time position</p>
                 </div>
             </div>
         </div>

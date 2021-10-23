@@ -12,7 +12,7 @@
     }
 
     ul{
-        margin: 10px;
+        margin: .5rem;
         padding: 0;
         list-style: none;
         display: flex;   
@@ -27,21 +27,21 @@
         position: relative;
 
         .item{
-            width: 220px;
-            height: 150px;
-            border-radius: 20px;
-            border: 1px solid gray;
-            margin: 10px 20px;
+            width: 25rem;
+            height: 20rem;
+            border-radius: 1rem;
+            border: .2rem solid $mainAccent;
+            margin: 1rem 1.3rem;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: white;    
+            color: $textColor;    
             transition: all .5s ease;       
             cursor: pointer; 
 
             h2{
                 position: absolute;
-                font-size: 20px;
+                font-size: 2.5rem;
             }
 
             img{
@@ -52,7 +52,7 @@
             }
 
             &:hover{
-                background-color: green;
+                background-color: $mainColor;
                 img{
                     opacity: .2;
                     z-index: 0;

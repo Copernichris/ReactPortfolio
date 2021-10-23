@@ -13,6 +13,9 @@ export default function Nav({ menuOpen, setMenuOpen }) {
                 <li onClick={()=>setMenuOpen(false)}>
                     <a href="#contact">Contact</a>
                 </li>
+                <li onClick={()=>setMenuOpen(false)}>
+                    <a href="#resume">Resume</a>
+                </li>
             </ul>
         </div>
     )

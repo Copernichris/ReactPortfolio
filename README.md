@@ -1,20 +1,19 @@
 # Portfolio
-the goal of this assignment was to create a portoflio that displays us and our work.
+This portfolio was updated using react.
 
-## general
-the website has a dark purple theme with light text, content is center aligned to look sleek on both pc and mobile devices. minimal styling used outside of images for headshot and cards.
+## General
+The website features 3 main pages with a snapping scrollbar. The nav bar allows users to jump to each of these pages quickly.
 
-## about me
-the headshot has a circular border and basic text underneath
+## About Me
+This section aims to show people who I am and what I do in a brief elegant way.
 
-## projects
-the main card is linked once the project button is hit. It covers the majority of the users screen and features a project i started before bootcamp. 
-each following card is designed to maintain a 2 per row system of images. the last 2 images are placeholders with no actual projects linked.
+## Projects
+Projects are sepparated by featured, node related, and ect. Featured is the only complete section. These can be easily updated later from a js data file.
 
-## contact
-the contact section features a link to my github, a mailto for my email adress, and a placeholder phone number
+## Contact
+Both the github and linkedin links are functional and the section features a mailto so customers and employers may contact me via email.
 
 ## screenshot
-![screenshot](https://github.com/Copernichris/homework-2/blob/main/screenshot.jpg)
+TODO
 ## link
-https://copernichris.github.io/PortfolioUpdate/
+TBA

@@ -1,5 +1,4 @@
-{
-  "homepage": "https://copernichris.github.io/ReactPortfolio/",
+{  
   "name": "portfolioreact",
   "version": "0.1.0",
   "private": true,
@@ -15,9 +14,7 @@
     "sass": "^1.43.3",
     "web-vitals": "^1.1.2"
   },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+  "scripts": {    
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

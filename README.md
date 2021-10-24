@@ -13,7 +13,11 @@ Projects are sepparated by featured, node related, and ect. Featured is the only
 ## Contact
 Both the github and linkedin links are functional and the section features a mailto so customers and employers may contact me via email.
 
-## screenshot
-TODO
-## link
-TBA
+## Screenshots
+![aboutme](https://github.com/Copernichris/ReactPortfolio/blob/main/public/assets/ss1.png)
+![portfolio](https://github.com/Copernichris/ReactPortfolio/blob/main/public/assets/ss2.png)
+![contact](https://github.com/Copernichris/ReactPortfolio/blob/main/public/assets/ss3.png)
+![navbar](https://github.com/Copernichris/ReactPortfolio/blob/main/public/assets/ss4.png)
+
+## Link
+https://chris-thomas-portfolio.herokuapp.com/
